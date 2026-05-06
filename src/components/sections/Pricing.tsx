@@ -12,7 +12,7 @@ function fmt(n: number) {
 }
 
 export default function Pricing() {
-  const [hours, setHours] = useState(calculator.default);
+  const [hours, setHours] = useState<number>(calculator.default);
 
   const hoursPerMonth = Math.round(hours * 4.33);
   const monthlyLoss  = Math.round(hoursPerMonth * calculator.hourlyRate);
