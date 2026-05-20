@@ -1,27 +1,18 @@
 import Link from "next/link";
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { HERO } from "@/lib/constants";
-
-const VIDEO_SRC =
-  "https://brandsparc.com/wp-content/uploads/2026/01/Create_a_cinematic_202601172302_a3uwu.mp4";
 
 export default function Hero() {
   return (
     <section
       className="relative flex min-h-[90vh] items-center overflow-hidden"
       aria-label="Hero"
+      style={{
+        backgroundImage: "url('/brandSparcCoverShakir.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center top",
+      }}
     >
-      {/* ── Background video ────────────────────────────────────────── */}
-      <video
-        src={VIDEO_SRC}
-        autoPlay
-        muted
-        loop
-        playsInline
-        aria-hidden="true"
-        className="absolute inset-0 h-full w-full object-cover"
-      />
-
       {/* Dark overlay so text stays readable */}
       <div
         aria-hidden="true"
@@ -41,7 +32,7 @@ export default function Hero() {
 
         {/* Eyebrow */}
         <div className="mb-7 inline-flex items-center gap-1.5 rounded-full bg-white/8 px-3.5 py-1.5 backdrop-blur-sm">
-         <span className="text-[12px] font-medium tracking-widest text-bs-muted uppercase">
+          <span className="text-[12px] font-medium tracking-widest text-bs-muted uppercase">
             {HERO.eyebrow}
           </span>
         </div>
@@ -81,7 +72,6 @@ export default function Hero() {
             className="inline-flex shrink-0 items-center gap-2 rounded-full border border-white/20 bg-white/5 px-7 py-3 text-[14px] font-medium text-white/70 backdrop-blur-sm transition-all duration-300 hover:border-white/40 hover:px-9 hover:text-white"
           >
             {HERO.ctaSecondary.label}
-           
           </Link>
         </div>
 
