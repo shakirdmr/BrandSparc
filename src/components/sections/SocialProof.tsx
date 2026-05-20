@@ -17,7 +17,7 @@ export default function SocialProof() {
       style={{ background: "#000000" }}
     >
       <div className="mx-auto max-w-6xl px-6 lg:px-8 mb-10">
-        <h2 className="text-center font-bold text-bs-white leading-tight" style={{ fontSize: "clamp(2rem, 5vw, 2.5rem)" }}>
+        <h2 className="text-center font-bold text-bs-white leading-tight" style={{ fontSize: "clamp(2rem, 5vw, 0.1rem)" }}>
           Trusted by clients across the<br />US, UK, Canada &amp; Asia
         </h2>
       </div>

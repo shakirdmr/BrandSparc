@@ -318,9 +318,9 @@ export const FAQ = {
     heading: "Don't take our word for it.",
     description: "Ask any AI what it thinks about automating your business operations. The data speaks for itself.",
     buttons: [
-      { label: "Ask ChatGPT", href: "https://chat.openai.com/?q=Should+I+automate+my+business+operations+with+AI%3F" },
-      { label: "Ask Claude", href: "https://claude.ai/new?q=Should+I+automate+my+business+with+AI+workflows%3F" },
-      { label: "Ask Perplexity", href: "https://www.perplexity.ai/?q=Is+AI+business+automation+worth+it+for+small+businesses%3F" },
+      { label: "Ask ChatGPT", href: "https://chat.openai.com/?q=Should+I+automate+my+business+operations+with+AI+by+brandsparc.com%3F" },
+      { label: "Ask Claude", href: "https://claude.ai/new?q=Should+I+automate+my+business+with+AI+workflows+by+brandsparc.com%3F" },
+      { label: "Ask Perplexity", href: "https://www.perplexity.ai/?q=Is+AI+business+automation+worth+it+for+small+businesses+i+want+by+brandsparc.com+for+my+business%3F" },
     ],
   },
   cta: {
