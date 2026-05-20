@@ -14,7 +14,7 @@ export default function PainPoints() {
               Problem & Solution
             </p>
             <h2 className="text-3xl font-bold tracking-tight text-bs-white sm:text-4xl">
-              Where businesses struggle — and how we fix it.
+              Where you struggle — and how we will fix it.
             </h2>
           </div>
 
@@ -24,9 +24,13 @@ export default function PainPoints() {
             {/* Card 1 — large left */}
             <div
               className="relative col-span-2 row-span-2 overflow-hidden rounded-3xl"
-              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+              style={{ border: "1px solid rgba(255,255,255,0.08)" }}
             >
-              <ImageHint text="Add a visual showing an AI dashboard, workflow builder, or automation flowchart — communicates 'smart systems running in the background'" />
+              <img
+                src="/pexaCovera.png"
+                alt="AI automation dashboard"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
               <div
                 className="absolute bottom-0 inset-x-0 p-8"
                 style={{ background: "linear-gradient(to top, rgba(7,16,30,0.95) 0%, transparent 100%)" }}
@@ -45,11 +49,19 @@ export default function PainPoints() {
 
             {/* Card 2 — problem */}
             <div
-              className="relative overflow-hidden rounded-3xl p-7"
-              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+              className="relative overflow-hidden rounded-3xl"
+              style={{ border: "1px solid rgba(255,255,255,0.08)" }}
             >
-              <ImageHint text="Add a photo of a stressed employee at a cluttered desk with spreadsheets or sticky notes — the 'manual work' feeling" />
-              <div className="relative">
+              <img
+                src="/pexaCovera.png"
+                alt="Manual repetitive work"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+              <div
+                className="absolute inset-0"
+                style={{ background: "rgba(7,16,30,0.55)" }}
+              />
+              <div className="absolute bottom-0 inset-x-0 p-7 relative z-10">
                 <p className="mb-1 text-[11px] font-semibold uppercase tracking-widest text-white/50">
                   ✦ Problem
                 </p>
@@ -61,11 +73,19 @@ export default function PainPoints() {
 
             {/* Card 3 — solution */}
             <div
-              className="relative overflow-hidden rounded-3xl p-7"
-              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+              className="relative overflow-hidden rounded-3xl"
+              style={{ border: "1px solid rgba(255,255,255,0.08)" }}
             >
-              <ImageHint text="Add a visual of an AI voice interface, sound wave, or a phone screen showing a bot conversation — communicates '24/7 AI handling calls'" />
-              <div className="relative">
+              <img
+                src="/pexaCovera.png"
+                alt="AI voice agents"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+              <div
+                className="absolute inset-0"
+                style={{ background: "rgba(7,16,30,0.55)" }}
+              />
+              <div className="absolute bottom-0 inset-x-0 p-7 z-10">
                 <p className="mb-1 text-[11px] font-semibold uppercase tracking-widest text-white/50">
                   ✦ Solution
                 </p>
@@ -81,10 +101,18 @@ export default function PainPoints() {
             {/* Card 4 — problem */}
             <div
               className="relative overflow-hidden rounded-3xl"
-              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+              style={{ border: "1px solid rgba(255,255,255,0.08)" }}
             >
-              <ImageHint text="Add an image showing unanswered messages, a CRM with red overdue tasks, or a 'lead went cold' metaphor — communicates missed opportunity" />
-              <div className="absolute bottom-0 inset-x-0 p-6">
+              <img
+                src="/pexaCovera.png"
+                alt="Leads going cold"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+              <div
+                className="absolute inset-0"
+                style={{ background: "rgba(7,16,30,0.55)" }}
+              />
+              <div className="absolute bottom-0 inset-x-0 p-6 z-10">
                 <p className="text-[11px] font-semibold uppercase tracking-widest text-white/50 mb-1">
                   ✦ Problem
                 </p>
@@ -96,20 +124,31 @@ export default function PainPoints() {
 
             {/* Card 5 — solution */}
             <div
-              className="relative col-span-2 overflow-hidden rounded-3xl p-8 flex flex-col justify-between"
-              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+              className="relative col-span-2 overflow-hidden rounded-3xl"
+              style={{ border: "1px solid rgba(255,255,255,0.08)" }}
             >
-              <p className="text-[11px] font-semibold uppercase tracking-widest text-white/50">
-                ✦ Solution
-              </p>
-              <div>
-                <h3 className="text-2xl font-bold text-bs-white leading-snug mb-2">
-                  From Audit to Live in Weeks —<br />
-                  Not Months.
-                </h3>
-                <p className="text-[13px] text-white/50 max-w-sm">
-                  We've built the playbooks and systems to move fast. You get results before the competition catches up.
+              <img
+                src="/pexaCovera.png"
+                alt="Fast deployment"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+              <div
+                className="absolute inset-0"
+                style={{ background: "rgba(7,16,30,0.65)" }}
+              />
+              <div className="relative z-10 h-full p-8 flex flex-col justify-between">
+                <p className="text-[11px] font-semibold uppercase tracking-widest text-white/50">
+                  ✦ Solution
                 </p>
+                <div>
+                  <h3 className="text-2xl font-bold text-bs-white leading-snug mb-2">
+                    From Audit to Live in Weeks —<br />
+                    Not Months.
+                  </h3>
+                  <p className="text-[13px] text-white/50 max-w-sm">
+                    We've built the playbooks and systems to move fast. You get results before the competition catches up.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -117,15 +156,5 @@ export default function PainPoints() {
         </div>
       </div>
     </section>
-  );
-}
-
-function ImageHint({ text }: { text: string }) {
-  return (
-    <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 z-10 flex justify-center px-6 pointer-events-none">
-      <p className="rounded-xl border border-dashed border-white/20 bg-white/5 px-4 py-2.5 text-center text-[11px] leading-relaxed text-white/35 backdrop-blur-sm">
-        🖼 {text}
-      </p>
-    </div>
   );
 }
